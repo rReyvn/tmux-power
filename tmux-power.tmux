@@ -34,37 +34,10 @@ prefix_highlight_pos=$(tmux_get @tmux_power_prefix_highlight_pos)
 time_format=$(tmux_get @tmux_power_time_format '%T')
 date_format=$(tmux_get @tmux_power_date_format '%F')
 # short for Theme-Colour
-TC=$(tmux_get '@tmux_power_theme' 'gold')
+TC=$(tmux_get '@tmux_power_theme' 'gruvbox-material')
 case $TC in
-    'gold' )
-        TC='#ffb86c'
-        ;;
-    'redwine' )
-        TC='#b34a47'
-        ;;
-    'moon' )
-        TC='#00abab'
-        ;;
-    'forest' )
-        TC='#228b22'
-        ;;
-    'violet' )
-        TC='#9370db'
-        ;;
-    'snow' )
-        TC='#fffafa'
-        ;;
-    'coral' )
-        TC='#ff7f50'
-        ;;
-    'sky' )
-        TC='#87ceeb'
-        ;;
-    'everforest' )
-        TC='#a7c080'
-        ;;
     'gruvbox-material' )
-        TC='#ddc7a1'
+        TC='#a89984'
         ;;
     'default' ) # Useful when your term changes colour dynamically (e.g. pywal)
         TC='colour3'
