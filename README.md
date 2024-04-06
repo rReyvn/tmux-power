@@ -23,7 +23,7 @@ run-shell "/path/to/tmux-power.tmux"
 **Install using [TPM](https://github.com/tmux-plugins/tpm)**
 
 ```tmux
-set -g @plugin 'wfxr/tmux-power'
+set -g @plugin 'rReyvn/tmux-power'
 ```
 
 ### 🎨 Themes
@@ -67,6 +67,10 @@ set -g @tmux_power_theme 'violet'
 #### Redwine
 ```bash
 set -g @tmux_power_theme 'redwine'
+```
+#### Gruvbox Material
+```bash
+set -g @tmux_power_theme 'gruvbox-material'
 ```
 #### Default
 ```bash
