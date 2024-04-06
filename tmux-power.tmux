@@ -39,6 +39,9 @@ case $TC in
     'gruvbox-material' )
         TC='#a89984'
         ;;
+    'gruv-green' )
+        TC='#a9b665'
+        ;;
     'default' ) # Useful when your term changes colour dynamically (e.g. pywal)
         TC='colour3'
         ;;
@@ -49,15 +52,8 @@ G02=#121212 #233
 G03=#1c1c1c #234
 G04=#262626 #235
 G05=#303030 #236
-G06=$(tmux_get '@tmux_power_theme' 'gruvbox-material')
-case $G06 in
-    'gruvbox-material' )
-        G06='#504945' #237
-        ;;
-    'default' ) # Useful when your term changes colour dynamically (e.g. pywal)
-        G06='#3a3a3a' #237
-        ;;
-esac
+#G06=#3a3a3a #237
+G06=#504945 #237
 G07=#444444 #238
 G08=#4e4e4e #239
 G09=#585858 #240

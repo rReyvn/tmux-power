@@ -1,4 +1,4 @@
-# Tmux Power
+# Fork of Tmux Power
 
 Yet another powerline theme for tmux.
 
@@ -27,50 +27,13 @@ set -g @plugin 'rReyvn/tmux-power'
 ```
 
 ### 🎨 Themes
-
-#### Gold (default)
-```bash
-set -g @tmux_power_theme 'gold'
-```
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-gold.png)
-
-#### Everforest
-```bash
-set -g @tmux_power_theme 'everforest'
-```
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-everforest.png)
-
-#### Moon
-```bash
-set -g @tmux_power_theme 'moon'
-```
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-moon.png)
-
-#### Coral
-```bash
-set -g @tmux_power_theme 'coral'
-```
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-coral.png)
-
-#### Snow
-```bash
-set -g @tmux_power_theme 'snow'
-```
-#### Forest
-```bash
-set -g @tmux_power_theme 'forest'
-```
-Violet
-```bash
-set -g @tmux_power_theme 'violet'
-```
-#### Redwine
-```bash
-set -g @tmux_power_theme 'redwine'
-```
-#### Gruvbox Material
+#### Gruvbox Material (Default)
 ```bash
 set -g @tmux_power_theme 'gruvbox-material'
+```
+#### Gruvbox Material Green
+```bash
+set -g @tmux_power_theme 'gruv-green'
 ```
 #### Default
 ```bash
@@ -99,7 +62,7 @@ the following configurations can generate the theme shown in the first screensho
 ```bash
 set -g @plugin 'wfxr/tmux-power'
 set -g @plugin 'wfxr/tmux-net-speed'
-set -g @tmux_power_theme 'everforest'
+set -g @tmux_power_theme 'gruvbox-material'
 set -g @tmux_power_date_icon ' '
 set -g @tmux_power_time_icon ' '
 set -g @tmux_power_user_icon ' '
